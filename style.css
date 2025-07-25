@@ -167,7 +167,7 @@ span{
 }
 .box{
     border:none;
-    height: 390px;px;
+    height: 390px;
     width: 23%;
     background-color: whitesmoke;
     padding: 20px 0px 15px;
@@ -228,6 +228,7 @@ span{
     width: auto;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
+    cursor: pointer;
 
 
 }
@@ -253,6 +254,7 @@ h2{
     margin-left: 540px ;
     font-size: smaller;
     margin-top: 9px;
+    
 }
 #gap{
     background-color: white;
@@ -270,7 +272,14 @@ h2{
     color: white;
     padding-top: 20px;
     font-size: small;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+
 }
+.bttop:hover {
+    background-color: #485a6b; 
+}
+
 .panel1{
     background-color: #222f3d;
     color:white;
